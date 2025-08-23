@@ -1,8 +1,7 @@
 //Main code edits
 /obj/structure/table/ComponentInitialize()
 	. = ..()
-	if(!istype(src, /obj/structure/table/optable))
-		AddElement(/datum/element/crawl_under)
+	AddElement(/datum/element/crawl_under)
 
 /obj/structure/table/CanPass(atom/movable/mover, turf/target)
 	if(mover.pass_flags & PASSCRAWL)

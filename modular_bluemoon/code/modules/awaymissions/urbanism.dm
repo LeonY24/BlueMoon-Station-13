@@ -76,8 +76,6 @@
 
 /obj/structure/reagent_dispensers/urbanismbarrel/red
 	icon_state = "redbarrel"
-	reagent_id = /datum/reagent/fuel
-	tank_volume = 200
 
 /obj/structure/barricade/urbanism
 	name = "Barricade"
@@ -140,12 +138,6 @@
 	armor = list(MELEE = 50, BULLET =40, LASER = 50, ENERGY = 60, BOMB = 50, BIO = 10, RAD = 0, FIRE = 50, ACID = 50)
 	layer = SPACEVINE_LAYER
 
-/obj/structure/urbanismbigcrate/alt
-	name = "heavy boxes"
-	icon = 'modular_bluemoon/icons/obj/urbanism/urbanism.dmi'
-	icon_state = "boxalt"
-
-
 /obj/structure/urbanismcars
 	name = "Damaged car"
 	desc = "Just lost in time broken (and bit rusty) vehicle"
@@ -202,11 +194,6 @@
 	density = TRUE
 	armor = list(MELEE = 30, BULLET =50, LASER = 30, ENERGY = 20, BOMB = 70, BIO = 15, RAD = 10, FIRE = 40, ACID = 30)
 
-/obj/structure/urbanismmachines/server
-
-	name = "old server"
-	icon = 'modular_bluemoon/icons/obj/urbanism/urbanism_structure32x64.dmi'
-	icon_state = "server"
 
 /obj/structure/urbanismmounted
 
@@ -253,11 +240,3 @@
 	name = "rocks"
 	icon = 'modular_bluemoon/icons/obj/urbanism/decals.dmi'
 	icon_state = "rock"
-
-/obj/structure/mesaflora
-	name = "bush"
-	desc = "A wild plant that is found in jungles."
-	icon = 'modular_bluemoon/icons/obj/urbanism/flora.dmi'
-	icon_state = "flora1"
-	anchored = TRUE
-	density = FALSE
